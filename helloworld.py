@@ -10,17 +10,22 @@ else:
     # If name has input then print name.
     print(f"\nHello {name}")
 
+
 git = input("\nHave you heard of git (y/n): ")
 
 
 if git == "y":
-    print("\nSo you know git is awesome")
+    # If y print this.
+    print("\nOh so you know git is awesome.")
 
 elif git == "n":
     print("\nGIT IS AWESOME")
 
 else:
-    print("\nYou didnt input correctly")
-    print("\nYou dont get to know about git")
+
+    # If input is incorret print this.
+    print("\nIncorrect input")
+    print("\nYou dont deserve to know about git.")
+
 
 print("\nGOODBYE")
